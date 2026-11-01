@@ -26,10 +26,16 @@ int main(void)
      if  (choice == 1)
 {
     /* add */
+   printf("Enter two numbers: ");
+   scanf("%d %d", &a, &b);
+   printf("&d + &d = %d\n", a, b, a + b);
 }
    else if (choice == 2)
 {
     /* Subtract */
+   printf("Enter two numbers: ");
+   scanf("&d &d", &a, &b);
+   printf("&d - &d = %d\n", a,b, a - b);
 }
    else if (choice == 3)
 {
@@ -41,6 +47,9 @@ int main(void)
    else if (choice == 4)
 {
     /* divide */
+   printf("Enter two numbers: ")
+   scanf("&d &d", &a, &b);
+   printf("&d / &d = %d\n", a,b, a / b);
 }
      if (choice < 0 || choice > 4)
         printf("Invalid choice\n");

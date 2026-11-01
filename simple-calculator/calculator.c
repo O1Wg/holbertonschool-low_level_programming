@@ -3,7 +3,26 @@
 
 int main(void)
 {
-int choice = 0; 
+  int choice;
+   
+   while ($choice)
+{
+printf("choice: ")
+
+if (scanf("%d",  &choice !=0)
+    break;
+
+if (chioce == choice)
+{
+    printf("Bye!\n");
+    return 0;
+}
+
+if (choice < 0 || choice > 1)
+    printf("invalid choice\n");
+}
+
+return (0);
 /* The printf && menu */
 printf("Simple calculator\n"); 
 printf("1) Add \n");

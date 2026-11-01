@@ -21,6 +21,25 @@ int main(void)
         printf("Bye!\n");
          return (0);
      }
+     if  (choice == 1)
+{
+    /* add */
+}
+   else if (choice == 2)
+{
+    /* Subtract */
+}
+   else if (choice == 3)
+{
+     /* Multiply */
+   printf("Enter two numbers: ");
+   scanf("%d %d", &a, &b);
+   printf("%d * %d = %d\n" , a, b, a *b);
+}
+   else if (choice == 4)
+{
+    /* divide */
+}
      if (choice < 0 || choice > 4)
         printf("Invalid choice\n");
     }

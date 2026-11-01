@@ -3,6 +3,8 @@
 int main(void)
 {
   int choice;
+  int a;
+  int b;
 
     while(1)
    {

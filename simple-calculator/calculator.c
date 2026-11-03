@@ -33,6 +33,11 @@ int main(void)
 	     printf("Invalid choice\n");
 	     continue;
      }
+ 	if (result == EOF)
+		return (0);
+	clear_input();
+	printf("Invalid choice\n")
+		result = scanf("%d %d", &a, &b);
 
      printf("Enter two numbers: ");
      if (scanf("%d %d", &a, &b) != 2)

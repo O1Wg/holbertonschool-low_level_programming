@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+ * main - A simple calculator that adds, subtracts, multiplies and divides
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
   int choice;
@@ -17,42 +22,32 @@ int main(void)
     printf("Choice: ");
  
      if (scanf("%d",  &choice) != 1)
-     break;
+	     break;
      if (choice == 0)
      {
         printf("Bye!\n");
          return (0);
      }
-     if  (choice == 1)
-{
-    /* add */
-   printf("Enter two numbers: ");
-   scanf("%d %d", &a, &b);
-   printf("&d + &d = %d\n", a, b, a + b);
-}
-   else if (choice == 2)
-{
-    /* Subtract */
-   printf("Enter two numbers: ");
-   scanf("&d &d", &a, &b);
-   printf("&d - &d = %d\n", a,b, a - b);
-}
-   else if (choice == 3)
-{
-     /* Multiply */
-   printf("Enter two numbers: ");
-   scanf("%d %d", &a, &b);
-   printf("%d * %d = %d\n" , a, b, a *b);
-}
-   else if (choice == 4)
-{
-    /* divide */
-   printf("Enter two numbers: ")
-   scanf("&d &d", &a, &b);
-   printf("&d / &d = %d\n", a,b, a / b);
-}
-     if (choice < 0 || choice > 4)
-        printf("Invalid choice\n");
-    }
-   return (0);
+     if  (choice < 1 || choice > 4)
+     {
+	     printf("Invalid choice\n");
+	     continue;
+     }
+
+     printf("Enter two numbers: ");
+     if (scanf("%d %d", &a, &b) != 2)
+	     break;
+		    
+	 if(choice == 1)
+		 printf("%d +%d =%d\n", a,b, a + b);
+	 else if (choice ==2)
+		 printf("%d - %d = %d\n", a, b, a - b);
+	 else if (choice == 3)
+		 printf("%d * %d = %d\n", a, b, a * b);
+	 else if (b ==0)
+			printf("Error: cannot divide by zero\n");
+	 else
+		 printf("%d / %d = %d\n", a, b, a / b);
+   }
+    return (0);
 }

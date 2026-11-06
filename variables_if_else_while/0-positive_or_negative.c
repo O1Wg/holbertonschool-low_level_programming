@@ -3,13 +3,12 @@
 #include <stdio.h>
 
 /**
-.*
 .* main - Entry point
 .*
-.* Descrption: assigns a random number to n and prints
-.* whether it is postive, negitve or zero
+.* Descrption: prints whether a random number is positive, negative, or zero
 .*
 .* Return: Always 0 (Success)
+.*
 .*/
 int main(void)
 {

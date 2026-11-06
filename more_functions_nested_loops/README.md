@@ -16,6 +16,7 @@ practicing functions and nested loops in C.
 | `main.h` | Header file with all function prototypes |
 | `_putchar.c` | Writes a character to stdout |
 | `0-isupper.c` | Checks for an uppercase character |
+| `1-isdigit.c` | Checks for a digit (0 through 9) |
 
 ## Author
 

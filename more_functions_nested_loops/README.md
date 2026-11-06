@@ -17,6 +17,7 @@ practicing functions and nested loops in C.
 | `_putchar.c` | Writes a character to stdout |
 | `0-isupper.c` | Checks for an uppercase character |
 | `1-isdigit.c` | Checks for a digit (0 through 9) |
+| `2-mul.c` | Multiplies two integers |
 
 ## Author
 

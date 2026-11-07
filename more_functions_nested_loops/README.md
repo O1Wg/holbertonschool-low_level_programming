@@ -24,6 +24,7 @@ practicing functions and nested loops in C.
 | `7-print_diagonal.c` | Draws a diagonal line on the terminal |
 | `8-print_square.c` | Prints a square of # characters |
 | `9-fizz_buzz.c` | Prints 1 to 100 with Fizz, Buzz, and FizzBuzz |
+| `10-print_triangle.c` | Prints a triangle of # characters |
 
 ## Author
 

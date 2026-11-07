@@ -22,6 +22,7 @@ practicing functions and nested loops in C.
 | `5-more_numbers.c` | Prints 10 times the numbers from 0 to 14 |
 | `6-print_line.c` | Draws a straight line in the terminal |
 | `8-print_square.c` | Prints a square of # characters |
+| `9-fizz_buzz.c` | Prints 1 to 100 with Fizz, Buzz, and FizzBuzz |
 
 ## Author
 

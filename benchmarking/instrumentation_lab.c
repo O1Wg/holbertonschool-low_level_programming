@@ -20,7 +20,7 @@ static void build_dataset(void)
 	state = SEED_VALUE;
 
 	for (i = 0; i < DATASET_SIZE; i++)
-		dataset[i] = (int)(nest_value(&state) % 100000);
+		dataset[i] = (int)(next_value(&state) % 100000);
 }
 
 static void process_dataset(void)

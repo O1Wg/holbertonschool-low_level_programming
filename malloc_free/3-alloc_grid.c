@@ -1,6 +1,16 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * alloc_grid - creates a 2D grid of integers set to 0
+ * @width: width of the grid
+ * @height: height of the grid
+ *
+ * Description: Returns NULL if width or height is 0 or negative,
+ * or if malloc fails.
+ *
+ * Return: pointer to the grid, or NULL on failure
+ */
 int **alloc_grid(int width, int height)
 {
 	int **grid;

@@ -1,0 +1,19 @@
+# Compiled programs in this repo have no file extension,
+# so ignore every file without a dot in its name...
+*
+!*/
+!*.*
+
+# ...except these shell scripts, which also have no extension
+!hello_world/0-preprocessor
+!hello_world/1-compiler
+!hello_world/2-assembler
+!hello_world/3-name
+!hello_world/100-intel
+
+# Other build output and editor leftovers
+a.out
+*.o
+*.swp
+*.swo
+*~
